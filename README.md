@@ -6,9 +6,9 @@ Ansible container with basic tools preinstalled
 https://hub.docker.com/r/spikebyte/ansible-exe
 
 ```shell
-docker pull spikebyte/ansible-exe:latest
+docker pull spikebyte/ansible-exe:main
 
-docker run -it --rm -v ${PWD}:/ansible -v ~/.ssh/:/root/.ssh/ spikebyte/ansible-exe bash
+docker run -it --rm -v ${PWD}:/ansible -v ~/.ssh/:/root/.ssh/ spikebyte/ansible-exe:main bash
 ```
 
 ## Build this image
@@ -25,6 +25,7 @@ docker push spikebyte/ansible-exe:latest
 
 ## References
 
+* https://github.com/docker/setup-buildx-action
 * https://github.com/docker/login-action/blob/5139682d94efc37792e6b54386b5b470a68a4737/README.md#docker-hub
 
 ```
