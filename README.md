@@ -6,7 +6,7 @@ Ansible container with basic tools preinstalled
 ```shell
 docker pull spikebyte/ansible-exe:latest
 
-docker run -it --rm -v ${PWD}:/ansible -v ~/.ssh/:/root/.ssh/ spikebyte/ansible-exe:latest bash
+docker run -it --rm -v ${PWD}:/ansible -v ~/.ssh/:/root/.ssh/ spikebyte/ansible-exe:main bash
 ```
 
 ## Build this image

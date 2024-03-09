@@ -19,7 +19,7 @@ RUN apt-get update && \
 
 # Upgrade pip and install Ansible
 RUN pip install --upgrade pip && \
-    pip install ansible
+    pip install ansible ansible-lint
 
 # Verify installation
 RUN ansible --version
