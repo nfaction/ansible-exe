@@ -20,3 +20,7 @@ docker tag ansible-exe spikebyte/ansible-exe:latest
 
 docker push spikebyte/ansible-exe:latest
 ```
+
+## References
+
+* https://github.com/docker/login-action/blob/5139682d94efc37792e6b54386b5b470a68a4737/README.md#docker-hub
