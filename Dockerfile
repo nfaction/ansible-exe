@@ -20,7 +20,7 @@ RUN apt-get update && \
 
 # Upgrade pip and install Ansible
 RUN pip install --upgrade pip && \
-    pip install ansible ansible-lint
+    pip install ansible ansible-lint paramiko
 
 # Verify installation
 RUN ansible --version
