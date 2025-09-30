@@ -9,6 +9,7 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     ssh \
+    sshpass \
     openssh-client \
     rsync \
     vim \
