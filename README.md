@@ -1,4 +1,7 @@
 # ansible-exe
+
+[![Docker](https://github.com/nfaction/ansible-exe/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/nfaction/ansible-exe/actions/workflows/docker-publish.yml)
+
 Ansible container with basic tools preinstalled
 
 ## Using this image

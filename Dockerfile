@@ -11,6 +11,7 @@ RUN apt-get update && \
     ssh \
     sshpass \
     openssh-client \
+    iputils-ping \
     rsync \
     vim \
     git \
